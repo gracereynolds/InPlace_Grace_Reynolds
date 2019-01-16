@@ -7,7 +7,7 @@ public class Bubble_Sort {
         while (!sorted) {
             s = 0;
             for(int i = 0; i < arr.length - 1; i++) {
-                if(arr[i].compareTo(arr[i+1]) < 0) {
+                if(arr[i].compareTo(arr[i+1]) > 0) {
                     swap(arr, i, i+1);
                     s++;
                 }
